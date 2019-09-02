@@ -1,0 +1,39 @@
+/* Customizing and styling the page through this CSS file */
+/* Styling page header title */
+.page-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(201, 211, 226);
+    font-size: 95px;
+    font-family: impact;
+}
+
+/* Styling the page background */
+.full-page{
+    /*background-color: orange;*/
+    height: 100vh; /* Full page height */
+    background-image: url("worldMapBackground.png");
+}
+
+/* Styling copyright section */
+.copy-right{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+}
+
+/* Styling list content */
+.list{
+    color: white;
+    font-size: 20px;
+}
+
+/* Styling  clock icon colors depending on the time of day retrieved from hours*/
+.night i{
+    color: grey;
+}
+.day i{
+    color: white;
+}

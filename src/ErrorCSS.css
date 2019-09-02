@@ -1,0 +1,16 @@
+.error-page{
+    background-color: grey;
+    height: 100vh;
+}
+
+.error-symbol{
+    position: relative;
+    top: 30vh;
+    left: 46.5vw;
+    color: black;
+}
+
+.error-text{
+    text-align: center;
+    padding: 280px 0;
+}
